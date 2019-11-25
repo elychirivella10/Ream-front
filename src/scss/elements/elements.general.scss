@@ -1,0 +1,69 @@
+@import '../settings/settings.colors';
+
+body{
+	font-family: 'Work Sans', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	margin: 0px;
+}
+
+table{
+	width: 91%;
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+	max-height: 51vh;
+	overflow: auto;
+	background-color: $colorCTwo;
+	padding: 0.6rem 2.5rem;
+	font-weight: 900;
+}
+
+th{
+	font-weight: 900;
+}
+
+thead {
+	margin-right: auto;
+	display: inline-block;
+	margin-left: auto;
+}
+
+td{
+	font-weight: 600;
+	height: 61px;
+	width: 169px;
+}
+
+p {
+	font-size: 14px;
+	line-height: 1.7;
+	margin: 0px;
+}
+
+a {
+	color: $colorTextEnlace;
+	text-decoration: none;
+}
+
+ul, li {
+	margin: 0px;
+	list-style-type: none;
+}
+
+input {
+	outline: none;
+	border: none;
+}
+
+textarea {
+  outline: none;
+  border: none;
+}
+
+button {
+	outline: none;
+	border: none;
+	background: transparent;
+}

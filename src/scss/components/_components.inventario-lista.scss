@@ -1,0 +1,18 @@
+@import '../settings/settings.colors';
+
+.c-info-map{
+    width: 30%;
+    height: 100%;
+}
+
+.c-section-info-completa{
+    width: 100%;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    color: white;
+}
+
+.leaflet-container{
+    border-radius: 10px;
+    z-index: 1;
+}

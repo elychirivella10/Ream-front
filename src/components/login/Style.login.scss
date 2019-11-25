@@ -1,0 +1,14 @@
+@import '../../scss/settings/settings.colors';
+@import '../../scss/objets/objets.login.scss';
+@import '../../scss/objets/objets.login-layout.scss';
+@import '../../scss/components/components.login';
+
+.leaflet-container {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+  }
+
+  .leaflet-control-attribution{
+      display: none;
+  }

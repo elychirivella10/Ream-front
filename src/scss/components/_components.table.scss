@@ -1,0 +1,5 @@
+@import '../settings/settings.colors';
+
+tr:nth-child(even) td>a{
+	background: $colorCOne;
+}

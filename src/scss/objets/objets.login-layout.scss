@@ -1,0 +1,80 @@
+@import '../Settings/settings.colors';
+
+.o-layout-container-login{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.o-layout-container-form-login{
+    width: 36%;
+    z-index: 1000;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px 4% ;
+}
+
+.o-layout-container-form{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.o-layout-form-login{
+    width: 100%;
+    padding:  33px 55px ;
+}
+
+.o-layout-logo-login{
+    background: $colorCOne;
+    margin-bottom: 4rem;
+    width: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    height: 5rem;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.o-layout-form-title-login{
+    font-size: 24px;
+    line-height: 1.2;
+    text-align: center;
+    width: 100%;
+    display: block;
+    padding-bottom: 54px;
+}
+
+.o-layout-input{
+    position: relative;
+    width: 100%;
+    z-index: 1;
+    margin-bottom: 10px;
+}
+
+.o-layout-container-img-login{
+    width: 50%;
+}
+
+.o-layout-container-btn-form-login{
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 20px;
+}

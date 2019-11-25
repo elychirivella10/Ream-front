@@ -1,0 +1,35 @@
+.o-layout-header{
+    position: relative;
+    height: 17rem;
+    top: 0;
+    width: 100%;
+    background-color: #418cff;
+}
+
+.o-layout-navegation-header-static{
+    position: absolute;
+    bottom: 1.5rem;
+    left: 2rem;
+}
+
+
+.o-layout-container-inf-equipos{
+  padding: 1.5rem 0 0 3rem;
+}
+
+.o-layout-inf-equipos{
+    width: 40%;
+    display: flex;
+}
+
+.o-layout-header-mapa{
+    position: relative;
+    width: 47%;
+    margin-right: 2rem;
+}
+.o-layout-header-mapa::after{
+    content:"";
+	display:block;
+    padding-top:100%;
+    float: left;
+}

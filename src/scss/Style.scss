@@ -1,0 +1,18 @@
+@import './settings/settings.fontface';
+@import './settings/settings.colors';
+@import './elements/elements.general.scss';
+@import './generic/generic.general';
+@import './objets/objets.general-layout.scss';
+@import './objets/objets.util.scss';
+@import './objets/objets.inventario-layout.scss';
+@import './components/components.table';
+@import './media/mediaQuery.scss';
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: 'work sans', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 700;
+  }

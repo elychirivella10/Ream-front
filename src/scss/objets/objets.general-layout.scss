@@ -1,0 +1,30 @@
+.l-container{
+    width: 78%;
+    min-height: 100vh;
+    position: absolute;
+    right: 0;
+    background-color: $background;
+}
+
+.o-layout-container{
+    min-width: 50%;
+    max-width: 80%;
+    min-height: 68vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 1rem;
+    padding: 2rem 1rem 1rem;
+    border-radius: 10px;
+}
+
+.o-layout-logo{
+    position: fixed;
+    bottom: 0.5rem;
+    right: 1rem;
+    width: 45px;
+    z-index: 1;
+}
+
+
+

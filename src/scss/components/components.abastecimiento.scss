@@ -1,0 +1,125 @@
+.c-header{
+    background-color: #5081b9;
+}
+
+.c-form-container{
+    background-color:  rgb(253, 253, 253);
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px; 
+}
+
+.c-form{
+    border-radius: 12px;
+    border: 2px solid rgb(80, 129, 185);
+    background: rgb(235, 235, 235);
+}
+
+.c-input,
+.c-option,
+.c-box{
+    margin: 1.2rem 0;
+    height: 2rem;
+    width: 80%;
+}
+
+.c-input{
+    margin-top: -9rem;
+}
+
+
+
+.c-form-submit{
+    width: 70%;
+    position: relative;
+    top: 9rem;
+    padding: 1rem 2rem;
+    background-color: rgb(80, 129, 185);
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.c-form-submit:hover,
+.c-btn-mapa-form:hover{
+    background-color: rgb(43, 109, 184);
+}
+
+.c-input-form{
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    width: 89%;
+    border: 1px solid rgb(80, 129, 185);
+}
+
+.c-select-form{
+    width: 100%;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+
+.alert{
+  position: relative;
+  bottom: 10rem;
+  width: 21.7rem;
+    height: 1rem;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 0.7rem;
+    font-weight: 700;
+    padding:  1rem 0;
+    font-family: 'Hind Vadodara'
+} 
+
+.c-p-alert{
+  width: 2rem;
+}
+
+.alert-danger{
+    background-color: rgb(177, 64, 64);
+}
+
+.alert-send{
+    background-color: rgb(64, 177, 107);
+}
+.btn{
+    text-decoration: none;
+    top: 1rem;
+    position: absolute;
+    right: 5rem;
+}
+
+.c-btn-mapa-form{
+  padding: 0.8rem 1rem;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(80, 129, 185);
+  cursor: pointer;
+  color: white;
+}
+
+.Estadal{
+    right: 20%;
+}
+
+
+.container {
+    display: block;
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 12px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+
+.c-gradicos{
+  padding: 1rem 1rem;
+  background-color: rgb(253, 253, 253);
+  border-radius: 10px;
+}
+  

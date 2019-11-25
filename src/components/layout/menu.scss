@@ -1,0 +1,122 @@
+@import '../../scss/settings/settings.colors';
+
+p{
+	margin: 0;
+}
+
+.c-logo{
+	width: 4.7rem;
+}
+
+.o-layout-menu-container{
+	position: fixed;
+	left: 0;
+	top: 0;
+	background-color: $colorCTwo;
+	height: 100vh;
+	width: 22%;
+}
+
+.o-layout-header-menu{
+	height: 11rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.c-home-menu{
+	display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 30%;
+}
+
+.c-menu-logo{
+	border-radius: 50%;
+	padding: 0.09rem 0.4rem;
+	margin-bottom: 0.5rem;
+}
+
+.c-menu-nombre-app{
+	padding: 0.5rem 3rem;
+    background: #545454;
+    border-radius: 50px;
+    color: #e4e4e4;
+}
+
+.c-nombre-app{
+	font-size: 0.8rem;
+}
+
+.o-layout-navegacion-menu-fija{
+	
+	margin-top: 2.5rem;
+    width: 100%;
+	height: 21%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: auto;
+}
+
+.o-layout-navegacion-menu-fija ul {
+	list-style: none;
+}
+
+.o-layout-navegacion-menu-dinamica{
+	margin-top: 1.5rem;
+}
+
+.o-layout-container-item-navegacion-fija{
+	display: block;
+	width: 100%;
+}
+
+.o-layout-container-item-navegacion-fija:hover{
+	background-color: $colorTwo;
+}
+
+.o-layout-container-item-navegacion-fija:last-child::after{
+	content: '';
+	display: block;
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+	border-bottom: 1px solid #c1c1c1;
+}
+
+.c-item-navegacion-menu-fija{
+	display: flex;
+	padding: 1rem 1rem ;
+}
+
+.c-img-navegacion-fija-menu{
+	width: 20px;
+	height: 20px;
+}
+
+.c-title-item-navegacion-fija{
+	padding-left: 1rem;
+}
+
+.o-layout-cerrar-sesion-menu{
+	position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+.before:last-child::after{
+	display: none;
+}
+
+.quitar-after:last-child::after{
+	display: none;
+}
+
+.before::before{
+	content: '';
+	display: block;
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+	border-bottom: 1px solid #c1c1c1;
+}
